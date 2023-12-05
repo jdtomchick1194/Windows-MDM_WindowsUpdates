@@ -1,0 +1,15 @@
+<!--Sets the Windows product version that devices should install. For example, can be used to force devices to update to Windows 11 (where compatible)-->
+<!--Note: This will NOT cause devices to rollback if a lower version is selected compared to what device is currently on-->
+<!--Be sure to set the desired version between the Data tags-->
+<Replace>
+  <CmdID>6cd79f9a-4531-4d93-b220-708ef01334be</CmdID>
+  <Item>
+    <Target>
+      <LocURI>./Vendor/MSFT/Policy/Config/Update/ProductVersion</LocURI>
+    </Target>
+    <Meta>
+      <Format xmlns="syncml:metinf">chr</Format>
+    </Meta>
+    <Data>Windows 10</Data>
+  </Item>
+</Replace>

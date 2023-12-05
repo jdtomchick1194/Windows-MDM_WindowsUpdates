@@ -1,3 +1,5 @@
+<!--Sets the Target Release Version that a device should update to and not past-->
+<!--Be sure to add the desired target version between the Data tags. Currently set to 22H2-->
 <Replace>
   <CmdID>b6b165e2-beea-4827-8fcd-82a2244a472a</CmdID>
   <Item>
@@ -8,17 +10,5 @@
       <Format xmlns="syncml:metinf">chr</Format>
     </Meta>
     <Data>22H2</Data>
-  </Item>
-</Replace>
-<Replace>
-  <CmdID>6cd79f9a-4531-4d93-b220-708ef01334be</CmdID>
-  <Item>
-    <Target>
-      <LocURI>./Vendor/MSFT/Policy/Config/Update/ProductVersion</LocURI>
-    </Target>
-    <Meta>
-      <Format xmlns="syncml:metinf">chr</Format>
-    </Meta>
-    <Data>Windows 10</Data>
   </Item>
 </Replace>

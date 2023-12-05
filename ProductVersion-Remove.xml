@@ -1,0 +1,13 @@
+<!--Removes the setting for Product Version. This sets device back to default and will allow the device to update to latest compatible version-->
+<Delete>
+  <CmdID>6cd79f9a-4531-4d93-b220-708ef01334be</CmdID>
+  <Item>
+    <Target>
+      <LocURI>./Vendor/MSFT/Policy/Config/Update/ProductVersion</LocURI>
+    </Target>
+    <Meta>
+      <Format xmlns="syncml:metinf">chr</Format>
+    </Meta>
+    <Data>Windows 10</Data>
+  </Item>
+</Delete>
